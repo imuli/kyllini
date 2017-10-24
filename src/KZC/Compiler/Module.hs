@@ -31,6 +31,7 @@ import Data.Symbol
 import System.Directory
 import System.FilePath
 import Text.PrettyPrint.Mainland
+import Text.PrettyPrint.Mainland.Class
 
 import Data.Digraph
 import KZC.Compiler.Types

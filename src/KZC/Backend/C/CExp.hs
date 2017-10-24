@@ -47,6 +47,7 @@ import Data.Loc
 import Data.Monoid
 import qualified Language.C.Quote as C
 import Text.PrettyPrint.Mainland
+import Text.PrettyPrint.Mainland.Class
 
 import {-# SOURCE #-} KZC.Backend.C.Monad
 import KZC.Backend.C.Util

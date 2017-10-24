@@ -119,6 +119,7 @@ import Data.String (IsString(..))
 import Data.Symbol
 import qualified Data.Vector as V
 import Text.PrettyPrint.Mainland
+import Text.PrettyPrint.Mainland.Class
 
 import KZC.Analysis.Lattice
 import KZC.Expr.Syntax (Var(..),

@@ -36,6 +36,7 @@ import Control.Monad.Ref
 import Data.IORef
 import qualified Data.Map as Map
 import Text.PrettyPrint.Mainland
+import Text.PrettyPrint.Mainland.Class
 
 import KZC.Config
 import KZC.Monad

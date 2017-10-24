@@ -104,6 +104,7 @@ import Data.Set (Set)
 import qualified Data.Vector as V
 import qualified Data.Vector.Mutable as MV
 import Text.PrettyPrint.Mainland
+import Text.PrettyPrint.Mainland.Class
 
 import KZC.Config
 import KZC.Core.Comp

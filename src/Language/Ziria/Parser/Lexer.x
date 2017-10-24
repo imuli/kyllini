@@ -35,6 +35,7 @@ import qualified Data.Map as Map
 import Data.Symbol
 import qualified Data.Text.Lazy as T
 import Text.PrettyPrint.Mainland
+import Text.PrettyPrint.Mainland.Class
 
 import Language.Ziria.Parser.Alex
 import Language.Ziria.Parser.Monad
