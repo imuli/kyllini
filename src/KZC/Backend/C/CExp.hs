@@ -404,7 +404,7 @@ instance C.ToExp (CExp l) where
                                        text "toExp: void compiled expression"
     toExp (CBool i)                  = const [cexp|$int:(if i then 1::Integer else 0)|]
     toExp (CInt i)                   = const [cexp|$int:i|]
-    toExp (CFloat r)                 = const [cexp|$double:r|]
+    toExp (CFloat r)                 = const [cexp|$double:(fromRational r)|]
     toExp (CExp e)                   = const e
     toExp ce@(CInit _)               = locatedError $
                                        text "toExp: cannot convert CInit to a C expression" </> ppr ce
